@@ -53,7 +53,7 @@ public class MessageConfig extends ConfigUtil {
 
     public static class ERROR {
         public String MUST_HOLD_ITEM = "&cYou must be holding an item in your main hand.";
-        public String NO_PERMISSION = "&cI'm sorry, but you do not have permission to perform this command.";
+        public String NO_PERMISSION = "&cYou do not have permission to do this.";
         public String GENERIC_ERROR_LOGGED = "&cAn error occurred. This problem has been logged. Sorry for the inconvenience.";
         public String UNKNOWN_COMMAND = "&cUnknown Command, please type &e/help";
         public String INVALID_SYNTAX = "&fUsage: &c<command> &f<syntax>";
@@ -71,7 +71,7 @@ public class MessageConfig extends ConfigUtil {
     
     public static class PLAYER {
         public String USERNAME_TOO_SHORT = "&cUsername too short, must be at least three characters.";
-        public String INVALID_USERNAME = "&c<name> &cis not a valid username.";
+        public String INVALID_USERNAME = "&c<name> is not a valid username.";
         public String MULTIPLE_PLAYERS_MATCH = "&cMultiple players matched &f<search> &c(<all>), please be more specific.";
         public String NO_ONLINE_PLAYER_FOUND = "&cNo player matching &f<search> &cis connected to this server.";
         public String NO_OFFLINE_PLAYER_FOUND = "&cNo player matching &f<search> &ccould be found.";
@@ -90,7 +90,7 @@ public class MessageConfig extends ConfigUtil {
 
     public static class FORMATS {
         public String ERROR_MESSAGE = "&4&lError &7» &c<message>";
-        public String INFO_MESSAGE = "&c<message>";
+        public String INFO_MESSAGE = "&b<message>";
 
     }
 
@@ -98,11 +98,11 @@ public class MessageConfig extends ConfigUtil {
         public String NO_COMMANDS_MATCHED_SEARCH = "&cNo command matched &f<search>&c.";
         public String NO_RESULTS = "&cNo more results.";
 
-        public String HEADER = "&7&m---&f Showing help for &c<commandPrefix><command>&f. &7&m---";
-        public String SEARCH_HEADER = "&7&m---&f Search results for &c<commandPrefix><command> &f<search>. &7&m---";
-        public String FORMAT = "&7■ &c<commandPrefix><command> &f<parameters>";
-        public String FORMAT_WITH_DESCRIPTION = "&7■ &c<commandPrefix><command> &f<parameters> &7(<description>)";
-        public String FOOTER = "<previousPage> &fShowing page &c<page> &fof &c<totalPages> &7(<results> results)&f. <nextPage>";
+        public String HEADER = "&7&m---&f Showing help for &b<commandPrefix><command>&f. &7&m---";
+        public String SEARCH_HEADER = "&7&m---&f Search results for &b<commandPrefix><command> &f<search>. &7&m---";
+        public String FORMAT = "&7■ &b<commandPrefix><command> &f<parameters>";
+        public String FORMAT_WITH_DESCRIPTION = "&7■ &b<commandPrefix><command> &f<parameters> &7(<description>)";
+        public String FOOTER = "<previousPage> &fShowing page &b<page> &fof &b<totalPages> &7(<results> results)&f. <nextPage>";
         public String NEXT_PAGE = "&a»";
         public String NEXT_PAGE_HOVER = "&7Click to go to the next page.";
         public String PREVIOUS_PAGE = "&c« ";
