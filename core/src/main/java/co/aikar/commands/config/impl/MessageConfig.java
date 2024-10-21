@@ -89,7 +89,7 @@ public class MessageConfig extends ConfigUtil {
     }
 
     public static class FORMATS {
-        public String ERROR_MESSAGE = "&4&lError &7» &c<message>";
+        public String ERROR_MESSAGE = "&c<message>";
         public String INFO_MESSAGE = "&b<message>";
 
     }
