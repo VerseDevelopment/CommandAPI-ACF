@@ -55,8 +55,8 @@ public class MessageConfig extends ConfigUtil {
         public String MUST_HOLD_ITEM = "&cYou must be holding an item in your main hand.";
         public String NO_PERMISSION = "&cYou do not have permission to do this.";
         public String GENERIC_ERROR_LOGGED = "&cAn error occurred. This problem has been logged. Sorry for the inconvenience.";
-        public String UNKNOWN_COMMAND = "&cUnknown Command, please type &e/help";
-        public String INVALID_SYNTAX = "&fUsage: &c<command> &f<syntax>";
+        public String UNKNOWN_COMMAND = "&cUnknown Command, please type /help";
+        public String INVALID_SYNTAX = "&fUsage: &b<command> &f<syntax>";
         public String ERROR_PERFORMING_COMMAND = "&cI'm sorry, but there was an error performing this command.";
         public String PLEASE_SPECIFY_ONE_OF = "&cPlease specify one of (<valid>).";
         public String MUST_BE_A_NUMBER = "&c<num> &cmust be a number.";
